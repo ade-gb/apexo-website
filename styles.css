@@ -105,3 +105,15 @@
 .brand img{display:block;width:100%;height:auto}
 .loader-logo{width:min(350px,68vw);height:auto;opacity:0;transform:scale(.94);animation:loaderMarkIn .9s cubic-bezier(.2,.7,.2,1) .12s forwards}
 @media(max-width:760px){.brand{width:min(178px,43vw);min-width:0;height:auto}.loader-logo{width:min(300px,72vw)}}
+
+/* Give the scroll-revealed service boxes the new Apexo teal identity. */
+.services .service{background:rgba(0,180,138,.025);border-color:rgba(0,180,138,.4);box-shadow:inset 0 0 0 1px rgba(0,180,138,.035);transition:background .3s,border-color .3s,box-shadow .3s}
+.services .service:hover{background:rgba(0,180,138,.075);border-color:rgba(0,180,138,.82);box-shadow:inset 0 0 0 1px rgba(0,180,138,.16),0 14px 38px rgba(0,180,138,.08)}
+.service-corner{box-shadow:0 0 12px rgba(0,180,138,.58)}
+.art-frame{stroke:rgba(0,180,138,.3)}
+.orbit-line{stroke:rgba(0,180,138,.52)}
+.orbit-loop{stroke:rgba(0,180,138,.34)}
+.hex{stroke:rgba(0,180,138,.64)}
+.timer-frame{stroke:rgba(0,180,138,.45)}
+.timer-track{stroke:rgba(0,180,138,.42)}
+.chart-guide{stroke:rgba(0,180,138,.32)}
